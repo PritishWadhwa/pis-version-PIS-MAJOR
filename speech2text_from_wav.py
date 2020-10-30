@@ -17,3 +17,4 @@ except Exception as e:
     print("Could not understand what you said")
 
 print("End-Time: ",datetime.now())
+# use gspeech library directly
