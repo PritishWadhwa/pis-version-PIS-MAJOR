@@ -128,6 +128,7 @@ while True:
 
             # Get user by notified socket, so we will know who sent the message
             user = clients[notified_socket]
+            int a=3
 
             print(f'Received message from {user["data"].decode("utf-8")}: {message["data"].decode("utf-8")}')
             B=message["data"].decode("utf-8")
