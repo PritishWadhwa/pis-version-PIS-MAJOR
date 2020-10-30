@@ -4,6 +4,7 @@ from gtts import gTTS
 import os
 
 HEADER_LENGTH = 10
+# header
 
 IP = "192.168.62.215"
 PORT = 1234
