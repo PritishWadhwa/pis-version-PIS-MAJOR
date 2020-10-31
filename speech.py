@@ -2,7 +2,7 @@ import time
 import speech_recognition as sr
 def speech2text():
     r = sr.Recognizer()
-   # print(sr.Microphone.list_microphone_names())
+
     while 1:
         with sr.Microphone(device_index=2) as src:
             print("Say Something")
