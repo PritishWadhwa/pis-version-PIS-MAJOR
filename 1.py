@@ -150,7 +150,9 @@ while True:
     for notified_socket in exception_sockets:
 
         # Remove from list for socket.socket()
+        # bhai python nahi aati bilkul
         sockets_list.remove(notified_socket)
+              
 
         # Remove from our list of users
         del clients[notified_socket]
